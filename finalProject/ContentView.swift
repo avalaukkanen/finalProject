@@ -565,50 +565,75 @@ struct ContentView: View {
             LinearGradient(gradient: Gradient(colors: [Color.pinko
                                     , Color.orange]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
                 .ignoresSafeArea()
-            
+            ScrollView(.vertical, showsIndicators: false){
             VStack {
                 Image("Image")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
-                List {
-                    Text("Activities")
-                        .font(.title)
-                        .foregroundColor(Color.pink)
-                    VStack {
+                //lets start allat list scroll stuff
+                VStack {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                            .padding(.bottom)
+                            .foregroundColor(.white)
+                }
+                        VStack{
+                            Text("Activities")
+                                .font(.title)
+                                .foregroundColor(Color.pink)
+                            ZStack {
+                                ZStack {
+                                    RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                        .padding(.vertical)
+                                        .foregroundColor(.white)
+                                }
+                                
+                                VStack {
+                                    Text("")
+                                    HStack {
+                                        
+                                        
+                                        Image(idea50["title"]!)
+                                            .resizable(resizingMode: .stretch)
+                                            .aspectRatio(contentMode: .fit)
+                                            .frame(width: 150.0, height: 125.0)
+                                        VStack{
+                                            Text(idea50["title"]!)
+                                                .foregroundColor(Color.pink)
+                                            Text(idea50["location"]!)
+                                        }
+                                    }
+                                    Text("-------------------------------------")
+                                    Text(idea50["description"]!)
+                                    Text("")
+                                    Text("")
+                                }
+                                Text("")
+                                Text("")
+                            }
+                        }
+                    }
+                    ZStack {
+                        VStack {
                         HStack {
                             
-                            Image(idea50["title"]!)
+                            Image(idea49["title"]!)
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                             VStack{
-                                Text(idea50["title"]!)
+                                Text(idea49["title"]!)
                                     .foregroundColor(Color.pink)
-                                Text(idea50["location"]!)
+                                Text(idea49["location"]!)
                             }
                         }
                         Text("-------------------------------------")
-                        Text(idea50["description"]!)
-                            }
-                        }
-                List {
-                    HStack {
+                        Text(idea49["description"]!)
                         
-                        Image(idea49["title"]!)
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                        VStack{
-                            Text(idea49["title"]!)
-                                .foregroundColor(Color.pink)
-                            Text(idea49["location"]!)
+                        
                         }
-                    }
-                    Text("-------------------------------------")
-                    Text(idea49["description"]!)
-                    
-                    
                 }
                     
-                
+            }
                 
             }
             .padding()
