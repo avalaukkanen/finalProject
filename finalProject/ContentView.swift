@@ -557,6 +557,7 @@ var idea50: [String: String] = [
     "wheelchairAccessible": "yes"
 ]
 
+var ideaNum : Int = 0
 struct ContentView: View {
     @State private var placeTitle = ""
     var body: some View {
