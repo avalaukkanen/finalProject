@@ -563,83 +563,94 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color.pinko
-                                    , Color.orange]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
-                .ignoresSafeArea()
+                                                       , Color.orange]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
+            .ignoresSafeArea()
             ScrollView(.vertical, showsIndicators: false){
-            VStack {
-                Image("Image")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                //lets start allat list scroll stuff
                 VStack {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                            .padding(.bottom)
-                            .foregroundColor(.white)
-                }
-                        VStack{
-                            Text("Activities")
-                                .font(.title)
-                                .foregroundColor(Color.pink)
-                            ZStack {
-                                ZStack {
-                                    RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                        .padding(.vertical)
-                                        .foregroundColor(.white)
-                                }
-                                
-                                VStack {
-                                    Text("")
-                                    HStack {
-                                        
-                                        
-                                        Image(idea50["title"]!)
-                                            .resizable(resizingMode: .stretch)
-                                            .aspectRatio(contentMode: .fit)
-                                            .frame(width: 150.0, height: 125.0)
-                                        VStack{
-                                            Text(idea50["title"]!)
-                                                .foregroundColor(Color.pink)
-                                            Text(idea50["location"]!)
-                                        }
-                                    }
-                                    Text("-------------------------------------")
-                                    Text(idea50["description"]!)
-                                    Text("")
-                                    Text("")
-                                }
-                                Text("")
-                                Text("")
-                            }
-                        }
-                    }
-                    ZStack {
+                    Image("Image")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                    //lets start allat list scroll stuff
+                    VStack {
                         VStack {
-                        HStack {
-                            
-                            Image(idea49["title"]!)
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                            VStack{
-                                Text(idea49["title"]!)
+                            //RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                //.padding(.bottom)
+                                //.foregroundColor(.white)
+                                Text("       Things To Do       ")
+                                    .font(.title)
                                     .foregroundColor(Color.pink)
-                                Text(idea49["location"]!)
+                                    .background(Color(.systemGroupedBackground)).cornerRadius(60)
+                                    Divider()
+                                ZStack {
+                                    ZStack {
+                                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                            .padding(.vertical)
+                                            .foregroundColor(.white)
+                                    }
+                                    
+                                    VStack {
+                                        Text("")
+                                        HStack {
+                                            
+                                            
+                                            Image(idea50["title"]!)
+                                                .resizable(resizingMode: .stretch)
+                                                .aspectRatio(contentMode: .fit)
+                                                .frame(width: 150.0, height: 125.0)
+                                            VStack{
+                                                Text(idea50["title"]!)
+                                                    .foregroundColor(Color.pink)
+                                                Text(idea50["location"]!)
+                                            }
+                                        }
+                                        Text("-------------------------------------")
+                                        Text(idea50["description"]!)
+                                        Text("")
+                                        Text("")
+                                    }
+                                    Text("")
+                                    Text("")
+                                }
                             }
                         }
-                        Text("-------------------------------------")
-                        Text(idea49["description"]!)
-                        
-                        
+                    ZStack {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                .padding(.vertical)
+                                .foregroundColor(.white)
                         }
+                        
+                        VStack {
+                            Text("")
+                            HStack {
+                                
+                                
+                                Image(idea49["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                VStack{
+                                    Text(idea49["title"]!)
+                                        .foregroundColor(Color.pink)
+                                    Text(idea49["location"]!)
+                                }
+                            }
+                            Text("-------------------------------------")
+                            Text(idea49["description"]!)
+                            Text("")
+                            Text("")
+                        }
+                        Text("")
+                        Text("")
+                    }
                 }
                     
+                }
+                .padding()
             }
-                
-            }
-            .padding()
         }
     }
-}
+
 
 #Preview {
     ContentView()
