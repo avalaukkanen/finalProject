@@ -229,7 +229,7 @@ var idea20: [String: String] = [
   "wheelchairAccessible": "yes"
 ]
 
-var idea21: [String: Any] = [
+var idea21: [String: String] = [
   "id": "21",
   "title": "Leighton House Museum",
   "description": "Explore the former home of Victorian artist Frederic Leighton, featuring stunning architecture and art.",
@@ -472,7 +472,7 @@ var idea42: [String: String] = [
   "wheelchairAccessible": "yes"
 ]
 
-var idea43: [String: Any] = [
+var idea43: [String: String] = [
   "id": "43",
   "title": "The London Zoo",
   "description": "Visit one of the world’s oldest zoos, home to a wide variety of animal species.",
@@ -483,7 +483,7 @@ var idea43: [String: Any] = [
   "wheelchairAccessible": "yes"
 ]
 
-var idea44: [String: Any] = [
+var idea44: [String: String] = [
   "id": "44",
   "title": "The Science Museum",
   "description": "Explore interactive exhibits and historical artifacts in this museum dedicated to science and technology.",
@@ -618,110 +618,1387 @@ struct ContentView: View {
                                     .foregroundColor(Color.pink)
                                     .background(Color(.systemGroupedBackground)).cornerRadius(60)
                                     Divider()
-                                ZStack {
-                                    ZStack {
-                                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                            .padding(.vertical)
-                                            .foregroundColor(.white)
-                                    }
-                                    
-                                    VStack {
-                                        Text("")
-                                        HStack {
-                                            
-                                            
-                                            Image(idea50["title"]!)
-                                                .resizable(resizingMode: .stretch)
-                                                .aspectRatio(contentMode: .fit)
-                                                .frame(width: 150.0, height: 125.0)
-                                            VStack{
-                                                Text(idea50["title"]!)
-                                                    .fontWeight(.bold)
-                                                    .foregroundColor(Color.pink)
-                                                Text(idea50["location"]!)
-                                            }
-                                        }
-
-                                        Text(idea50["description"]!)
-                                        Text("")
-                                        Text("")
-                                    }
-                                    Text("")
-                                    Text("")
-                                }
-                            }
-                        }
-                    ZStack {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .padding(.vertical)
-                                .foregroundColor(.white)
-                        }
-                        
-                        VStack {
-                            Text("")
-                            HStack {
-                                
-                                
-                                Image(idea49["title"]!)
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea49["title"]!)
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 150.0, height: 125.0)
-                                VStack{
+                                  VStack {
                                     Text(idea49["title"]!)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(Color.pink)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
                                     Text(idea49["location"]!)
+                                  }
                                 }
+                                Text(idea49["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
                             }
-                            Text(idea49["description"]!)
-                            Text("")
-                            Text("")
-                        }
-                        Text("")
-                        Text("")
-                    }
-                }
-                
-                ZStack {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                            .padding(.vertical)
-                            .foregroundColor(.white)
-                    }
-                    
-                    VStack {
-                        Text("")
-                        HStack {
-                            
-                            
-                            Image(idea49["title"]!)
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 150.0, height: 125.0)
-                            VStack{
-                                Text(idea49["title"]!)
-                                    .fontWeight(.bold)
-                                    .foregroundColor(Color.pink)
-                                Text(idea49["location"]!)
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea48["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea48["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea48["location"]!)
+                                  }
+                                }
+                                Text(idea48["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
                             }
-                        }
-                        Text(idea49["description"]!)
-                        Text("")
-                        Text("")
-                    }
-                    Text("")
-                    Text("")
-                }
-            }
-                    
-                }
-            
-                //.padding()
-            }
-        }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea47["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea47["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea47["location"]!)
+                                  }
+                                }
+                                Text(idea47["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea46["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea46["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea46["location"]!)
+                                  }
+                                }
+                                Text(idea46["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea45["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea45["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea45["location"]!)
+                                  }
+                                }
+                                Text(idea45["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea44["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea44["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea44["location"]!)
+                                  }
+                                }
+                                Text(idea44["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea43["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea43["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea43["location"]!)
+                                  }
+                                }
+                                Text(idea43["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea42["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea42["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea42["location"]!)
+                                  }
+                                }
+                                Text(idea42["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea41["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea41["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea41["location"]!)
+                                  }
+                                }
+                                Text(idea41["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea40["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea40["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea40["location"]!)
+                                  }
+                                }
+                                Text(idea40["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea39["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea39["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea39["location"]!)
+                                  }
+                                }
+                                Text(idea39["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea38["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea38["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea38["location"]!)
+                                  }
+                                }
+                                Text(idea38["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea37["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea37["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea37["location"]!)
+                                  }
+                                }
+                                Text(idea37["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea36["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea36["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea36["location"]!)
+                                  }
+                                }
+                                Text(idea36["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea35["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea35["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea35["location"]!)
+                                  }
+                                }
+                                Text(idea35["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea34["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea34["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea34["location"]!)
+                                  }
+                                }
+                                Text(idea34["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea33["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea33["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea33["location"]!)
+                                  }
+                                }
+                                Text(idea33["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea32["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea32["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea32["location"]!)
+                                  }
+                                }
+                                Text(idea32["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea31["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea31["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea31["location"]!)
+                                  }
+                                }
+                                Text(idea31["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea30["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea30["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea30["location"]!)
+                                  }
+                                }
+                                Text(idea30["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea29["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea29["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea29["location"]!)
+                                  }
+                                }
+                                Text(idea29["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea28["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea28["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea28["location"]!)
+                                  }
+                                }
+                                Text(idea28["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea27["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea27["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea27["location"]!)
+                                  }
+                                }
+                                Text(idea27["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea26["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea26["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea26["location"]!)
+                                  }
+                                }
+                                Text(idea26["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea25["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea25["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea25["location"]!)
+                                  }
+                                }
+                                Text(idea25["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea24["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea24["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea24["location"]!)
+                                  }
+                                }
+                                Text(idea24["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea23["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea23["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea23["location"]!)
+                                  }
+                                }
+                                Text(idea23["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea22["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea22["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea22["location"]!)
+                                  }
+                                }
+                                Text(idea22["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea21["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea21["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea21["location"]!)
+                                  }
+                                }
+                                Text(idea21["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea20["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea20["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea20["location"]!)
+                                  }
+                                }
+                                Text(idea20["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea19["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea19["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea19["location"]!)
+                                  }
+                                }
+                                Text(idea19["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea18["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea18["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea18["location"]!)
+                                  }
+                                }
+                                Text(idea18["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea17["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea17["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea17["location"]!)
+                                  }
+                                }
+                                Text(idea17["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea16["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea16["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea16["location"]!)
+                                  }
+                                }
+                                Text(idea16["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea15["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea15["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea15["location"]!)
+                                  }
+                                }
+                                Text(idea15["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea14["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea14["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea14["location"]!)
+                                  }
+                                }
+                                Text(idea14["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea13["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea13["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea13["location"]!)
+                                  }
+                                }
+                                Text(idea13["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea12["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea12["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea12["location"]!)
+                                  }
+                                }
+                                Text(idea12["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea11["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea11["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea11["location"]!)
+                                  }
+                                }
+                                Text(idea11["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea10["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea10["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea10["location"]!)
+                                  }
+                                }
+                                Text(idea10["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea9["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea9["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea9["location"]!)
+                                  }
+                                }
+                                Text(idea9["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea8["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea8["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea8["location"]!)
+                                  }
+                                }
+                                Text(idea8["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea7["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea7["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea7["location"]!)
+                                  }
+                                }
+                                Text(idea7["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea6["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea6["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea6["location"]!)
+                                  }
+                                }
+                                Text(idea6["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea5["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea5["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea5["location"]!)
+                                  }
+                                }
+                                Text(idea5["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea4["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea4["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea4["location"]!)
+                                  }
+                                }
+                                Text(idea4["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea3["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea3["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea3["location"]!)
+                                  }
+                                }
+                                Text(idea3["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea2["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea2["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea2["location"]!)
+                                  }
+                                }
+                                Text(idea2["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+
+                            ZStack {
+                              ZStack {
+                                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                                  .padding(.vertical)
+                                  .foregroundColor(.white)
+                              }
+                              VStack {
+                                Text("")
+                                HStack {
+                                  Image(idea1["title"]!)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0, height: 125.0)
+                                  VStack {
+                                    Text(idea1["title"]!)
+                                      .fontWeight(.bold)
+                                      .foregroundColor(Color.pink)
+                                    Text(idea1["location"]!)
+                                  }
+                                }
+                                Text(idea1["description"]!)
+                                Text("")
+                                Text("")
+                              }
+                              Text("")
+                              Text("")
+                            }
+                            }
+
     
 
+                    }
+                }
+            }
+        }
+    }
+}
 
 #Preview {
     ContentView()
