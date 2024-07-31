@@ -7,6 +7,49 @@
 
 import SwiftUI
 
+struct ContentView: View {
+    
+    @State private var placeTitle = ""
+    var ideaNum : Int = 0
+    
+    var body: some View {
+        NavigationStack {
+            
+            ZStack {
+        
+                VStack {
+                    Text("Home Page")
+              
+                }
+                .toolbar {
+                    ToolbarItemGroup(placement: .status) {
+                        NavigationLink(destination: ContentView()) {
+                            Image("house")
+                                .padding(25)
+                                .navigationBarBackButtonHidden(true)
+                            NavigationLink(destination: FollowingView()) {
+                                Image("people")
+                                    .padding(25)
+                                    .navigationBarBackButtonHidden(true)
+                                NavigationLink(destination: BucketListView()) {
+                                    Image("bucketList")
+                                        .padding(25)
+                                        .navigationBarBackButtonHidden(true)
+                                    NavigationLink(destination: ProfileView()) {
+                                        Image("person")
+                                            .padding(25)
+                                            .navigationBarBackButtonHidden(true)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } // toolbar
+                
+            } // z stack
+   
+
+
 var idea1: [String: String] = [
   "id": "1",
   "title": "Explore Leighton House Museum",
@@ -593,10 +636,10 @@ var idea53: [String: String] = [
     "wheelchairAccessible": "no"
 ]
 
-var ideaNum : Int = 0
-struct ContentView: View {
-    @State private var placeTitle = ""
-    var body: some View {
+
+//struct ContentView: View {
+  //  var body: some View {
+        
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color.pinko
                                                        , Color.orange]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
@@ -2072,11 +2115,14 @@ struct ContentView: View {
                             
                         }
                     }
-                }
-            }
+              //  }
+   //         }
         }
     }
 }
+        } // nav stack
+    } // body
+} // struct
 
 #Preview {
     ContentView()

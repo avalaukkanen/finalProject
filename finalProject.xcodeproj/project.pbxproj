@@ -14,6 +14,9 @@
 		BD1401C02C53D347003E1A77 /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1401BF2C53D347003E1A77 /* finalProjectTests.swift */; };
 		BD1401CA2C53D347003E1A77 /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1401C92C53D347003E1A77 /* finalProjectUITests.swift */; };
 		BD1401CC2C53D347003E1A77 /* finalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1401CB2C53D347003E1A77 /* finalProjectUITestsLaunchTests.swift */; };
+		BD4931182C5A6825001E0957 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4931172C5A6825001E0957 /* ProfileView.swift */; };
+		BD49311A2C5A684A001E0957 /* BucketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4931192C5A684A001E0957 /* BucketListView.swift */; };
+		BD49311C2C5A6863001E0957 /* FollowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49311B2C5A6863001E0957 /* FollowingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BD1401C52C53D347003E1A77 /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1401C92C53D347003E1A77 /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		BD1401CB2C53D347003E1A77 /* finalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD4931172C5A6825001E0957 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BD4931192C5A684A001E0957 /* BucketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListView.swift; sourceTree = "<group>"; };
+		BD49311B2C5A6863001E0957 /* FollowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				BD1401AE2C53D345003E1A77 /* finalProjectApp.swift */,
 				BD1401B02C53D345003E1A77 /* ContentView.swift */,
+				BD4931172C5A6825001E0957 /* ProfileView.swift */,
+				BD4931192C5A684A001E0957 /* BucketListView.swift */,
+				BD49311B2C5A6863001E0957 /* FollowingView.swift */,
 				BD1401B22C53D347003E1A77 /* Assets.xcassets */,
 				BD1401B42C53D347003E1A77 /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD49311A2C5A684A001E0957 /* BucketListView.swift in Sources */,
 				BD1401B12C53D345003E1A77 /* ContentView.swift in Sources */,
+				BD49311C2C5A6863001E0957 /* FollowingView.swift in Sources */,
+				BD4931182C5A6825001E0957 /* ProfileView.swift in Sources */,
 				BD1401AF2C53D345003E1A77 /* finalProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
