@@ -682,12 +682,45 @@ struct ContentView: View {
                         Text("")
                     }
                 }
+                
+                ZStack {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
+                            .padding(.vertical)
+                            .foregroundColor(.white)
+                    }
+                    
+                    VStack {
+                        Text("")
+                        HStack {
+                            
+                            
+                            Image(idea49["title"]!)
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 150.0, height: 125.0)
+                            VStack{
+                                Text(idea49["title"]!)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color.pink)
+                                Text(idea49["location"]!)
+                            }
+                        }
+                        Text(idea49["description"]!)
+                        Text("")
+                        Text("")
+                    }
+                    Text("")
+                    Text("")
+                }
+            }
                     
                 }
-                .padding()
+            
+                //.padding()
             }
         }
-    }
+    
 
 
 #Preview {
