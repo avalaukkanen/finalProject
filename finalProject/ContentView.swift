@@ -18,7 +18,6 @@ struct ContentView: View {
             ZStack {
         
                 VStack {
-                    Text("Home Page")
               
                 }
                 .toolbar {
