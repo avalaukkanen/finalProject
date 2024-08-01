@@ -678,9 +678,8 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea49["location"]!)
-                                            Text(idea49["category"]!)
                                             Text(idea49["indoor_outdoor"]!)
-                                            Text(idea49["accesibility"]!)
+                                            Text(idea49["wheelchairAccessible"]!)
                                             Text(idea49["website"]!)
                                         }
                                     }
@@ -712,7 +711,7 @@ var idea53: [String: String] = [
                                             Text(idea48["location"]!)
                                             Text(idea48["category"]!)
                                             Text(idea48["indoor_outdoor"]!)
-                                            Text(idea48["accesibility"]!)
+                                            Text(idea48["wheelchairAccessible"]!)
                                             Text(idea48["website"]!)
                                         }
                                     }
@@ -744,7 +743,7 @@ var idea53: [String: String] = [
                                             Text(idea47["location"]!)
                                             Text(idea47["category"]!)
                                             Text(idea47["indoor_outdoor"]!)
-                                            Text(idea47["accesibility"]!)
+                                            Text(idea47["wheelchairAccessible"]!)
                                             Text(idea47["website"]!)
                                         }
                                     }
@@ -776,7 +775,7 @@ var idea53: [String: String] = [
                                             Text(idea46["location"]!)
                                             Text(idea46["category"]!)
                                             Text(idea46["indoor_outdoor"]!)
-                                            Text(idea46["accesibility"]!)
+                                            Text(idea46["wheelchairAccessible"]!)
                                             Text(idea46["website"]!)
                                         }
                                     }
@@ -808,7 +807,7 @@ var idea53: [String: String] = [
                                             Text(idea45["location"]!)
                                             Text(idea45["category"]!)
                                             Text(idea45["indoor_outdoor"]!)
-                                            Text(idea45["accesibility"]!)
+                                            Text(idea45["wheelchairAccessible"]!)
                                             Text(idea45["website"]!)
                                         }
                                     }
@@ -840,7 +839,7 @@ var idea53: [String: String] = [
                                             Text(idea44["location"]!)
                                             Text(idea44["category"]!)
                                             Text(idea44["indoor_outdoor"]!)
-                                            Text(idea44["accesibility"]!)
+                                            Text(idea44["wheelchairAccessible"]!)
                                             Text(idea44["website"]!)
                                         }
                                     }
@@ -872,7 +871,7 @@ var idea53: [String: String] = [
                                             Text(idea43["location"]!)
                                             Text(idea43["category"]!)
                                             Text(idea43["indoor_outdoor"]!)
-                                            Text(idea43["accesibility"]!)
+                                            Text(idea43["wheelchairAccessible"]!)
                                             Text(idea43["website"]!)
                                         }
                                     }
@@ -904,7 +903,7 @@ var idea53: [String: String] = [
                                             Text(idea42["location"]!)
                                             Text(idea42["category"]!)
                                             Text(idea42["indoor_outdoor"]!)
-                                            Text(idea42["accesibility"]!)
+                                            Text(idea42["wheelchairAccessible"]!)
                                             Text(idea42["website"]!)
                                         }
                                     }
@@ -936,7 +935,7 @@ var idea53: [String: String] = [
                                             Text(idea41["location"]!)
                                             Text(idea41["category"]!)
                                             Text(idea41["indoor_outdoor"]!)
-                                            Text(idea41["accesibility"]!)
+                                            Text(idea41["wheelchairAccessible"]!)
                                             Text(idea41["website"]!)
                                         }
                                     }
@@ -968,7 +967,7 @@ var idea53: [String: String] = [
                                             Text(idea40["location"]!)
                                             Text(idea40["category"]!)
                                             Text(idea40["indoor_outdoor"]!)
-                                            Text(idea40["accesibility"]!)
+                                            Text(idea40["wheelchairAccessible"]!)
                                             Text(idea40["website"]!)
                                         }
                                     }
@@ -1000,7 +999,7 @@ var idea53: [String: String] = [
                                             Text(idea39["location"]!)
                                             Text(idea39["category"]!)
                                             Text(idea39["indoor_outdoor"]!)
-                                            Text(idea39["accesibility"]!)
+                                            Text(idea39["wheelchairAccessible"]!)
                                             Text(idea39["website"]!)
                                         }
                                     }
@@ -1032,7 +1031,7 @@ var idea53: [String: String] = [
                                             Text(idea38["location"]!)
                                             Text(idea38["category"]!)
                                             Text(idea38["indoor_outdoor"]!)
-                                            Text(idea38["accesibility"]!)
+                                            Text(idea38["wheelchairAccessible"]!)
                                             Text(idea38["website"]!)
                                         }
                                     }
@@ -1064,7 +1063,7 @@ var idea53: [String: String] = [
                                             Text(idea37["location"]!)
                                             Text(idea37["category"]!)
                                             Text(idea37["indoor_outdoor"]!)
-                                            Text(idea37["accesibility"]!)
+                                            Text(idea37["wheelchairAccessible"]!)
                                             Text(idea37["website"]!)
                                         }
                                     }
@@ -1096,7 +1095,7 @@ var idea53: [String: String] = [
                                             Text(idea36["location"]!)
                                             Text(idea36["category"]!)
                                             Text(idea36["indoor_outdoor"]!)
-                                            Text(idea36["accesibility"]!)
+                                            Text(idea36["wheelchairAccessible"]!)
                                             Text(idea36["website"]!)
                                         }
                                     }
@@ -1128,7 +1127,7 @@ var idea53: [String: String] = [
                                             Text(idea35["location"]!)
                                             Text(idea35["category"]!)
                                             Text(idea35["indoor_outdoor"]!)
-                                            Text(idea35["accesibility"]!)
+                                            Text(idea35["wheelchairAccessible"]!)
                                             Text(idea35["website"]!)
                                         }
                                     }
@@ -1160,7 +1159,7 @@ var idea53: [String: String] = [
                                             Text(idea34["location"]!)
                                             Text(idea34["category"]!)
                                             Text(idea34["indoor_outdoor"]!)
-                                            Text(idea34["accesibility"]!)
+                                            Text(idea34["wheelchairAccessible"]!)
                                             Text(idea34["website"]!)
                                         }
                                     }
@@ -1192,7 +1191,7 @@ var idea53: [String: String] = [
                                             Text(idea33["location"]!)
                                             Text(idea33["category"]!)
                                             Text(idea33["indoor_outdoor"]!)
-                                            Text(idea33["accesibility"]!)
+                                            Text(idea33["wheelchairAccessible"]!)
                                             Text(idea33["website"]!)
                                         }
                                     }
@@ -1227,7 +1226,7 @@ var idea53: [String: String] = [
                                     Text(idea32["description"]!)
                                     Text(idea32["category"]!)
                                     Text(idea32["indoor_outdoor"]!)
-                                    Text(idea32["accesibility"]!)
+                                    Text(idea32["wheelchairAccessible"]!)
                                     Text(idea32["website"]!)
                                     Text("")
                                     Text("")
@@ -1256,7 +1255,7 @@ var idea53: [String: String] = [
                                             Text(idea31["location"]!)
                                             Text(idea31["category"]!)
                                             Text(idea31["indoor_outdoor"]!)
-                                            Text(idea31["accesibility"]!)
+                                            Text(idea31["wheelchairAccessible"]!)
                                             Text(idea31["website"]!)
                                         }
                                     }
@@ -1288,7 +1287,7 @@ var idea53: [String: String] = [
                                             Text(idea30["location"]!)
                                             Text(idea30["category"]!)
                                             Text(idea30["indoor_outdoor"]!)
-                                            Text(idea30["accesibility"]!)
+                                            Text(idea30["wheelchairAccessible"]!)
                                             Text(idea30["website"]!)
                                         }
                                     }
@@ -1320,7 +1319,7 @@ var idea53: [String: String] = [
                                             Text(idea29["location"]!)
                                             Text(idea29["category"]!)
                                             Text(idea29["indoor_outdoor"]!)
-                                            Text(idea29["accesibility"]!)
+                                            Text(idea29["wheelchairAccessible"]!)
                                             Text(idea29["website"]!)
                                         }
                                     }
@@ -1352,7 +1351,7 @@ var idea53: [String: String] = [
                                             Text(idea28["location"]!)
                                             Text(idea28["category"]!)
                                             Text(idea28["indoor_outdoor"]!)
-                                            Text(idea28["accesibility"]!)
+                                            Text(idea28["wheelchairAccessible"]!)
                                             Text(idea28["website"]!)
                                         }
                                     }
@@ -1384,7 +1383,7 @@ var idea53: [String: String] = [
                                             Text(idea27["location"]!)
                                             Text(idea27["category"]!)
                                             Text(idea27["indoor_outdoor"]!)
-                                            Text(idea27["accesibility"]!)
+                                            Text(idea27["wheelchairAccessible"]!)
                                             Text(idea27["website"]!)
                                         }
                                     }
@@ -1416,7 +1415,7 @@ var idea53: [String: String] = [
                                             Text(idea26["location"]!)
                                             Text(idea26["category"]!)
                                             Text(idea26["indoor_outdoor"]!)
-                                            Text(idea26["accesibility"]!)
+                                            Text(idea26["wheelchairAccessible"]!)
                                             Text(idea26["website"]!)
                                         }
                                     }
@@ -1448,7 +1447,7 @@ var idea53: [String: String] = [
                                             Text(idea25["location"]!)
                                             Text(idea25["category"]!)
                                             Text(idea25["indoor_outdoor"]!)
-                                            Text(idea25["accesibility"]!)
+                                            Text(idea25["wheelchairAccessible"]!)
                                             Text(idea25["website"]!)
                                         }
                                     }
@@ -1480,7 +1479,7 @@ var idea53: [String: String] = [
                                             Text(idea24["location"]!)
                                             Text(idea24["category"]!)
                                             Text(idea24["indoor_outdoor"]!)
-                                            Text(idea24["accesibility"]!)
+                                            Text(idea24["wheelchairAccessible"]!)
                                             Text(idea24["website"]!)
                                         }
                                     }
@@ -1512,7 +1511,7 @@ var idea53: [String: String] = [
                                             Text(idea23["location"]!)
                                             Text(idea23["category"]!)
                                             Text(idea23["indoor_outdoor"]!)
-                                            Text(idea23["accesibility"]!)
+                                            Text(idea23["wheelchairAccessible"]!)
                                             Text(idea23["website"]!)
                                         }
                                     }
@@ -1544,7 +1543,7 @@ var idea53: [String: String] = [
                                             Text(idea22["location"]!)
                                             Text(idea22["category"]!)
                                             Text(idea22["indoor_outdoor"]!)
-                                            Text(idea22["accesibility"]!)
+                                            Text(idea22["wheelchairAccessible"]!)
                                             Text(idea22["website"]!)
                                         }
                                     }
@@ -1576,7 +1575,7 @@ var idea53: [String: String] = [
                                             Text(idea21["location"]!)
                                             Text(idea21["category"]!)
                                             Text(idea21["indoor_outdoor"]!)
-                                            Text(idea21["accesibility"]!)
+                                            Text(idea21["wheelchairAccessible"]!)
                                             Text(idea21["website"]!)
                                         }
                                     }
@@ -1608,7 +1607,7 @@ var idea53: [String: String] = [
                                             Text(idea20["location"]!)
                                             Text(idea20["category"]!)
                                             Text(idea20["indoor_outdoor"]!)
-                                            Text(idea20["accesibility"]!)
+                                            Text(idea20["wheelchairAccessible"]!)
                                             Text(idea20["website"]!)
                                         }
                                     }
@@ -1640,7 +1639,7 @@ var idea53: [String: String] = [
                                             Text(idea19["location"]!)
                                             Text(idea19["category"]!)
                                             Text(idea19["indoor_outdoor"]!)
-                                            Text(idea19["accesibility"]!)
+                                            Text(idea19["wheelchairAccessible"]!)
                                             Text(idea19["website"]!)
                                         }
                                     }
@@ -1672,7 +1671,7 @@ var idea53: [String: String] = [
                                             Text(idea18["location"]!)
                                             Text(idea18["category"]!)
                                             Text(idea18["indoor_outdoor"]!)
-                                            Text(idea18["accesibility"]!)
+                                            Text(idea18["wheelchairAccessible"]!)
                                             Text(idea18["website"]!)
                                         }
                                     }
@@ -1704,7 +1703,7 @@ var idea53: [String: String] = [
                                             Text(idea17["location"]!)
                                             Text(idea17["category"]!)
                                             Text(idea17["indoor_outdoor"]!)
-                                            Text(idea17["accesibility"]!)
+                                            Text(idea17["wheelchairAccessible"]!)
                                             Text(idea17["website"]!)
                                         }
                                     }
@@ -1736,7 +1735,7 @@ var idea53: [String: String] = [
                                             Text(idea16["location"]!)
                                             Text(idea16["category"]!)
                                             Text(idea16["indoor_outdoor"]!)
-                                            Text(idea16["accesibility"]!)
+                                            Text(idea16["wheelchairAccessible"]!)
                                             Text(idea16["website"]!)
                                         }
                                     }
@@ -1768,7 +1767,7 @@ var idea53: [String: String] = [
                                             Text(idea15["location"]!)
                                             Text(idea15["category"]!)
                                             Text(idea15["indoor_outdoor"]!)
-                                            Text(idea15["accesibility"]!)
+                                            Text(idea15["wheelchairAccessible"]!)
                                             Text(idea15["website"]!)
                                         }
                                     }
@@ -1800,7 +1799,7 @@ var idea53: [String: String] = [
                                             Text(idea14["location"]!)
                                             Text(idea14["category"]!)
                                             Text(idea14["indoor_outdoor"]!)
-                                            Text(idea14["accesibility"]!)
+                                            Text(idea14["wheelchairAccessible"]!)
                                             Text(idea14["website"]!)
                                         }
                                     }
@@ -1832,7 +1831,7 @@ var idea53: [String: String] = [
                                             Text(idea13["location"]!)
                                             Text(idea13["category"]!)
                                             Text(idea13["indoor_outdoor"]!)
-                                            Text(idea13["accesibility"]!)
+                                            Text(idea13["wheelchairAccessible"]!)
                                             Text(idea13["website"]!)
                                         }
                                     }
@@ -1864,7 +1863,7 @@ var idea53: [String: String] = [
                                             Text(idea12["location"]!)
                                             Text(idea12["category"]!)
                                             Text(idea12["indoor_outdoor"]!)
-                                            Text(idea12["accesibility"]!)
+                                            Text(idea12["wheelchairAccessible"]!)
                                             Text(idea12["website"]!)
                                         }
                                     }
@@ -1896,7 +1895,7 @@ var idea53: [String: String] = [
                                             Text(idea11["location"]!)
                                             Text(idea11["category"]!)
                                             Text(idea11["indoor_outdoor"]!)
-                                            Text(idea11["accesibility"]!)
+                                            Text(idea11["wheelchairAccessible"]!)
                                             Text(idea11["website"]!)
                                         }
                                     }
@@ -1928,7 +1927,7 @@ var idea53: [String: String] = [
                                             Text(idea10["location"]!)
                                             Text(idea10["category"]!)
                                             Text(idea10["indoor_outdoor"]!)
-                                            Text(idea10["accesibility"]!)
+                                            Text(idea10["wheelchairAccessible"]!)
                                             Text(idea10["website"]!)
                                         }
                                     }
@@ -1960,7 +1959,7 @@ var idea53: [String: String] = [
                                             Text(idea9["location"]!)
                                             Text(idea9["category"]!)
                                             Text(idea9["indoor_outdoor"]!)
-                                            Text(idea9["accesibility"]!)
+                                            Text(idea9["wheelchairAccessible"]!)
                                             Text(idea9["website"]!)
                                         }
                                     }
@@ -1992,7 +1991,7 @@ var idea53: [String: String] = [
                                             Text(idea8["location"]!)
                                             Text(idea8["category"]!)
                                             Text(idea8["indoor_outdoor"]!)
-                                            Text(idea8["accesibility"]!)
+                                            Text(idea8["wheelchairAccessible"]!)
                                             Text(idea8["website"]!)
                                         }
                                     }
@@ -2024,7 +2023,7 @@ var idea53: [String: String] = [
                                             Text(idea7["location"]!)
                                             Text(idea7["category"]!)
                                             Text(idea7["indoor_outdoor"]!)
-                                            Text(idea7["accesibility"]!)
+                                            Text(idea7["wheelchairAccessible"]!)
                                             Text(idea7["website"]!)
                                         }
                                     }
@@ -2056,7 +2055,7 @@ var idea53: [String: String] = [
                                             Text(idea6["location"]!)
                                             Text(idea6["category"]!)
                                             Text(idea6["indoor_outdoor"]!)
-                                            Text(idea6["accesibility"]!)
+                                            Text(idea6["wheelchairAccessible"]!)
                                             Text(idea6["website"]!)
                                         }
                                     }
@@ -2088,7 +2087,7 @@ var idea53: [String: String] = [
                                             Text(idea5["location"]!)
                                             Text(idea5["category"]!)
                                             Text(idea5["indoor_outdoor"]!)
-                                            Text(idea5["accesibility"]!)
+                                            Text(idea5["wheelchairAccessible"]!)
                                             Text(idea5["website"]!)
                                         }
                                     }
@@ -2120,7 +2119,7 @@ var idea53: [String: String] = [
                                             Text(idea4["location"]!)
                                             Text(idea4["category"]!)
                                             Text(idea4["indoor_outdoor"]!)
-                                            Text(idea4["accesibility"]!)
+                                            Text(idea4["wheelchairAccessible"]!)
                                             Text(idea4["website"]!)
                                         }
                                     }
@@ -2152,7 +2151,7 @@ var idea53: [String: String] = [
                                             Text(idea3["location"]!)
                                             Text(idea3["category"]!)
                                             Text(idea3["indoor_outdoor"]!)
-                                            Text(idea3["accesibility"]!)
+                                            Text(idea3["wheelchairAccessible"]!)
                                             Text(idea3["website"]!)
                                         }
                                     }
@@ -2184,7 +2183,7 @@ var idea53: [String: String] = [
                                             Text(idea2["location"]!)
                                             Text(idea2["category"]!)
                                             Text(idea2["indoor_outdoor"]!)
-                                            Text(idea2["accesibility"]!)
+                                            Text(idea2["wheelchairAccessible"]!)
                                             Text(idea2["website"]!)
                                         }
                                     }
@@ -2216,7 +2215,7 @@ var idea53: [String: String] = [
                                             Text(idea1["location"]!)
                                             Text(idea1["category"]!)
                                             Text(idea1["indoor_outdoor"]!)
-                                            Text(idea1["accesibility"]!)
+                                            Text(idea1["wheelchairAccessible"]!)
                                             Text(idea1["website"]!)
                                         }
                                     }
@@ -2246,7 +2245,7 @@ var idea53: [String: String] = [
                                             Text(idea51["location"]!)
                                             Text(idea51["category"]!)
                                             Text(idea51["indoor_outdoor"]!)
-                                            Text(idea51["accesibility"]!)
+                                            Text(idea51["wheelchairAccessible"]!)
                                             Text(idea51["website"]!)
                                         }
                                     }
@@ -2275,7 +2274,7 @@ var idea53: [String: String] = [
                                         Text(idea52["location"]!)
                                           Text(idea52["category"]!)
                                           Text(idea52["indoor_outdoor"]!)
-                                          Text(idea52["accesibility"]!)
+                                          Text(idea52["wheelchairAccessible"]!)
                                           Text(idea52["website"]!)
                                       }
                                     }
