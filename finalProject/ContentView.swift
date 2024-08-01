@@ -57,7 +57,7 @@ var idea1: [String: String] = [
   "category": "Museum",
   "website": "https://www.rbkc.gov.uk/subsites/museums/leightonhousemuseum1.aspx",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea2: [String: String] = [
@@ -68,7 +68,7 @@ var idea2: [String: String] = [
   "category": "Outdoor",
   "website": "https://www.londontours.com/kayak-thames",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea3: [String: String] = [
@@ -79,7 +79,7 @@ var idea3: [String: String] = [
   "category": "Art",
   "website": "https://www.godsownjunkyard.co.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea4: [String: String] = [
@@ -90,7 +90,7 @@ var idea4: [String: String] = [
   "category": "Scenic",
   "website": "https://www.visitlondon.com/things-to-do/place/676336-little-venice",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "true"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea5: [String: String] = [
@@ -101,7 +101,7 @@ var idea5: [String: String] = [
   "category": "Market",
   "website": "https://www.columbiaroad.info",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea6: [String: String] = [
@@ -112,7 +112,7 @@ var idea6: [String: String] = [
   "category": "Museum",
   "website": "https://www.soane.org",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea7: [String: String] = [
@@ -123,7 +123,7 @@ var idea7: [String: String] = [
   "category": "Scenic",
   "website": "https://skygarden.london",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea8: [String: String] = [
@@ -134,7 +134,7 @@ var idea8: [String: String] = [
   "category": "Historical",
   "website": "https://www.london.gov.uk",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea9: [String: String] = [
@@ -145,7 +145,7 @@ var idea9: [String: String] = [
   "category": "Entertainment",
   "website": "https://www.wiltons.org.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea10: [String: String] = [
@@ -156,7 +156,7 @@ var idea10: [String: String] = [
   "category": "Scenic",
   "website": "https://www.eelpieislandartists.co.uk",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea11: [String: String] = [
@@ -167,7 +167,7 @@ var idea11: [String: String] = [
   "category": "Museum",
   "website": "https://www.thelasttuesdaysociety.org",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea12: [String: String] = [
@@ -178,7 +178,7 @@ var idea12: [String: String] = [
   "category": "Historical",
   "website": "https://highgatecemetery.org",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea13: [String: String] = [
@@ -189,7 +189,7 @@ var idea13: [String: String] = [
   "category": "Museum",
   "website": "https://www.dennissevershouse.co.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea14: [String: String] = [
@@ -200,7 +200,7 @@ var idea14: [String: String] = [
   "category": "Museum",
   "website": "https://www.sherlock-holmes.co.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea15: [String: String] = [
@@ -211,7 +211,7 @@ var idea15: [String: String] = [
   "category": "Scenic",
   "website": "https://www.royalparks.org.uk/parks/the-regents-park/things-to-see-and-do/primrose-hill",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea16: [String: String] = [
@@ -222,7 +222,7 @@ var idea16: [String: String] = [
   "category": "Shopping",
   "website": "https://www.camdenpassageislington.co.uk",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea17: [String: String] = [
@@ -233,7 +233,7 @@ var idea17: [String: String] = [
     "category": "Music Venue",
     "website": "https://www.606club.co.uk",
     "indoor_outdoor": "Indoor",
-    "wheelchairAccessible": "yes"
+    "wheelchairAccessible": "wheelchair accessible"
 ]
 
 
@@ -245,7 +245,7 @@ var idea18: [String: String] = [
     "category": "Entertainment",
     "website": "https://www.f1arcade.com",
     "indoor_outdoor": "Indoor",
-    "wheelchairAccessible": "yes"
+    "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea19: [String: String] = [
@@ -256,7 +256,7 @@ var idea19: [String: String] = [
     "category": "Aquarium",
     "website": "https://www.visitsealife.com/london",
     "indoor_outdoor": "Indoor",
-    "wheelchairAccessible": "yes"
+    "wheelchairAccessible": "wheelchair accessible"
 ]
 
 
@@ -268,7 +268,7 @@ var idea20: [String: String] = [
   "category": "Museum",
   "website": "https://www.hunterianmuseum.org",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea21: [String: String] = [
@@ -279,7 +279,7 @@ var idea21: [String: String] = [
   "category": "Museum",
   "website": "https://www.rbkc.gov.uk/subsites/museums/leightonhousemuseum1.aspx",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea22: [String: String] = [
@@ -290,7 +290,7 @@ var idea22: [String: String] = [
     "category": "Attraction",
     "website": "https://www.emiratesairline.co.uk",
     "indoor_outdoor": "Outdoor",
-    "wheelchairAccessible": "yes"
+    "wheelchairAccessible": "wheelchair accessible"
 ]
 
 
@@ -302,7 +302,7 @@ var idea23: [String: String] = [
   "category": "Historical",
   "website": "https://www.nationaltrust.org.uk/sutton-house",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea24: [String: String] = [
@@ -313,7 +313,7 @@ var idea24: [String: String] = [
   "category": "Outdoor",
   "website": "https://hackneycityfarm.co.uk",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea25: [String: String] = [
@@ -324,7 +324,7 @@ var idea25: [String: String] = [
   "category": "Museum",
   "website": "https://www.museumofthehome.org.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea26: [String: String] = [
@@ -335,7 +335,7 @@ var idea26: [String: String] = [
   "category": "Scenic",
   "website": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/hampstead-heath",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea27: [String: String] = [
@@ -346,7 +346,7 @@ var idea27: [String: String] = [
   "category": "Museum",
   "website": "https://oldoperatingtheatre.com",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "no"
+  "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 var idea28: [String: String] = [
@@ -357,7 +357,7 @@ var idea28: [String: String] = [
   "category": "Museum",
   "website": "https://www.horniman.ac.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea29: [String: String] = [
@@ -368,7 +368,7 @@ var idea29: [String: String] = [
   "category": "Scenic",
   "website": "https://www.canals.org.uk/regents-canal",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea30: [String: String] = [
@@ -379,7 +379,7 @@ var idea30: [String: String] = [
   "category": "Library",
   "website": "https://www.bl.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea31: [String: String] = [
@@ -390,7 +390,7 @@ var idea31: [String: String] = [
   "category": "Museum",
   "website": "https://www.ltmuseum.co.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea32: [String: String] = [
@@ -401,7 +401,7 @@ var idea32: [String: String] = [
   "category": "Museum",
   "website": "https://www.rmg.co.uk/royal-observatory-greenwich",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea33: [String: String] = [
@@ -412,7 +412,7 @@ var idea33: [String: String] = [
   "category": "Scenic",
   "website": "https://www.the-shard.com",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea34: [String: String] = [
@@ -423,7 +423,7 @@ var idea34: [String: String] = [
   "category": "Museum",
   "website": "https://www.iwm.org.uk/visits/churchill-war-rooms",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea35: [String: String] = [
@@ -434,7 +434,7 @@ var idea35: [String: String] = [
   "category": "Art",
   "website": "https://www.saatchigallery.com",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea36: [String: String] = [
@@ -445,7 +445,7 @@ var idea36: [String: String] = [
   "category": "Museum",
   "website": "https://www.nhm.ac.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea37: [String: String] = [
@@ -456,7 +456,7 @@ var idea37: [String: String] = [
   "category": "Historical",
   "website": "https://www.stpauls.co.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea38: [String: String] = [
@@ -467,7 +467,7 @@ var idea38: [String: String] = [
   "category": "Art",
   "website": "https://www.tate.org.uk/visit/tate-modern",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea39: [String: String] = [
@@ -478,7 +478,7 @@ var idea39: [String: String] = [
   "category": "Scenic",
   "website": "https://www.kew.org",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea40: [String: String] = [
@@ -489,7 +489,7 @@ var idea40: [String: String] = [
   "category": "Scenic",
   "website": "https://www.londoneye.com",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea41: [String: String] = [
@@ -500,7 +500,7 @@ var idea41: [String: String] = [
   "category": "Entertainment",
   "website": "https://www.shakespearesglobe.com",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea42: [String: String] = [
@@ -522,7 +522,7 @@ var idea43: [String: String] = [
   "category": "Zoo",
   "website": "https://www.zsl.org/zsl-london-zoo",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea44: [String: String] = [
@@ -533,7 +533,7 @@ var idea44: [String: String] = [
   "category": "Museum",
   "website": "https://www.sciencemuseum.org.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea45: [String: String] = [
@@ -544,7 +544,7 @@ var idea45: [String: String] = [
   "category": "Art",
   "website": "https://www.royalacademy.org.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea46: [String: String] = [
@@ -555,7 +555,7 @@ var idea46: [String: String] = [
   "category": "Market",
   "website": "https://boroughmarket.org.uk",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea47: [String: String] = [
@@ -566,7 +566,7 @@ var idea47: [String: String] = [
   "category": "Scenic",
   "website": "https://www.royalparks.org.uk/parks/greenwich-park",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea48: [String: String] = [
@@ -577,7 +577,7 @@ var idea48: [String: String] = [
   "category": "Museum",
   "website": "https://www.designmuseum.org",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea49: [String: String] = [
@@ -588,7 +588,7 @@ var idea49: [String: String] = [
   "category": "Shopping",
   "website": "https://www.coventgarden.london",
   "indoor_outdoor": "Outdoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea50: [String: String] = [
@@ -599,7 +599,7 @@ var idea50: [String: String] = [
   "category": "Entertainment",
   "website": "https://www.southbankcentre.co.uk",
   "indoor_outdoor": "Indoor",
-  "wheelchairAccessible": "yes"
+  "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea51: [String: String] = [
@@ -610,7 +610,7 @@ var idea51: [String: String] = [
     "category": "Cinema",
     "website": "https://www.princecharlescinema.com",
     "indoor_outdoor": "Indoor",
-    "wheelchairAccessible": "yes"
+    "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea52: [String: String] = [
@@ -621,7 +621,7 @@ var idea52: [String: String] = [
     "category": "Dessert Café",
     "website": "https://www.creamscafe.com",
     "indoor_outdoor": "Indoor",
-    "wheelchairAccessible": "yes"
+    "wheelchairAccessible": "wheelchair accessible"
 ]
 
 var idea53: [String: String] = [
@@ -632,7 +632,7 @@ var idea53: [String: String] = [
     "category": "Art",
     "website": "https://checkout.timeout.com/london/get-10-tickets-to-neon-naked-bingo-at-dabbers-city-60679",
     "indoor_outdoor": "Indoor",
-    "wheelchairAccessible": "no"
+    "wheelchairAccessible": "not wheelchair accessible"
 ]
 
 
@@ -678,6 +678,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea49["location"]!)
+                                            Text(idea49["category"]!)
+                                            Text(idea49["indoor_outdoor"]!)
+                                            Text(idea49["accesibility"]!)
+                                            Text(idea49["website"]!)
                                         }
                                     }
                                     Text(idea49["description"]!)
@@ -706,6 +710,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea48["location"]!)
+                                            Text(idea48["category"]!)
+                                            Text(idea48["indoor_outdoor"]!)
+                                            Text(idea48["accesibility"]!)
+                                            Text(idea48["website"]!)
                                         }
                                     }
                                     Text(idea48["description"]!)
@@ -734,6 +742,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea47["location"]!)
+                                            Text(idea47["category"]!)
+                                            Text(idea47["indoor_outdoor"]!)
+                                            Text(idea47["accesibility"]!)
+                                            Text(idea47["website"]!)
                                         }
                                     }
                                     Text(idea47["description"]!)
@@ -762,6 +774,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea46["location"]!)
+                                            Text(idea46["category"]!)
+                                            Text(idea46["indoor_outdoor"]!)
+                                            Text(idea46["accesibility"]!)
+                                            Text(idea46["website"]!)
                                         }
                                     }
                                     Text(idea46["description"]!)
@@ -790,6 +806,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea45["location"]!)
+                                            Text(idea45["category"]!)
+                                            Text(idea45["indoor_outdoor"]!)
+                                            Text(idea45["accesibility"]!)
+                                            Text(idea45["website"]!)
                                         }
                                     }
                                     Text(idea45["description"]!)
@@ -818,6 +838,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea44["location"]!)
+                                            Text(idea44["category"]!)
+                                            Text(idea44["indoor_outdoor"]!)
+                                            Text(idea44["accesibility"]!)
+                                            Text(idea44["website"]!)
                                         }
                                     }
                                     Text(idea44["description"]!)
@@ -846,6 +870,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea43["location"]!)
+                                            Text(idea43["category"]!)
+                                            Text(idea43["indoor_outdoor"]!)
+                                            Text(idea43["accesibility"]!)
+                                            Text(idea43["website"]!)
                                         }
                                     }
                                     Text(idea43["description"]!)
@@ -874,6 +902,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea42["location"]!)
+                                            Text(idea42["category"]!)
+                                            Text(idea42["indoor_outdoor"]!)
+                                            Text(idea42["accesibility"]!)
+                                            Text(idea42["website"]!)
                                         }
                                     }
                                     Text(idea42["description"]!)
@@ -902,6 +934,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea41["location"]!)
+                                            Text(idea41["category"]!)
+                                            Text(idea41["indoor_outdoor"]!)
+                                            Text(idea41["accesibility"]!)
+                                            Text(idea41["website"]!)
                                         }
                                     }
                                     Text(idea41["description"]!)
@@ -930,6 +966,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea40["location"]!)
+                                            Text(idea40["category"]!)
+                                            Text(idea40["indoor_outdoor"]!)
+                                            Text(idea40["accesibility"]!)
+                                            Text(idea40["website"]!)
                                         }
                                     }
                                     Text(idea40["description"]!)
@@ -958,6 +998,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea39["location"]!)
+                                            Text(idea39["category"]!)
+                                            Text(idea39["indoor_outdoor"]!)
+                                            Text(idea39["accesibility"]!)
+                                            Text(idea39["website"]!)
                                         }
                                     }
                                     Text(idea39["description"]!)
@@ -986,6 +1030,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea38["location"]!)
+                                            Text(idea38["category"]!)
+                                            Text(idea38["indoor_outdoor"]!)
+                                            Text(idea38["accesibility"]!)
+                                            Text(idea38["website"]!)
                                         }
                                     }
                                     Text(idea38["description"]!)
@@ -1014,6 +1062,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea37["location"]!)
+                                            Text(idea37["category"]!)
+                                            Text(idea37["indoor_outdoor"]!)
+                                            Text(idea37["accesibility"]!)
+                                            Text(idea37["website"]!)
                                         }
                                     }
                                     Text(idea37["description"]!)
@@ -1042,6 +1094,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea36["location"]!)
+                                            Text(idea36["category"]!)
+                                            Text(idea36["indoor_outdoor"]!)
+                                            Text(idea36["accesibility"]!)
+                                            Text(idea36["website"]!)
                                         }
                                     }
                                     Text(idea36["description"]!)
@@ -1070,6 +1126,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea35["location"]!)
+                                            Text(idea35["category"]!)
+                                            Text(idea35["indoor_outdoor"]!)
+                                            Text(idea35["accesibility"]!)
+                                            Text(idea35["website"]!)
                                         }
                                     }
                                     Text(idea35["description"]!)
@@ -1098,6 +1158,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea34["location"]!)
+                                            Text(idea34["category"]!)
+                                            Text(idea34["indoor_outdoor"]!)
+                                            Text(idea34["accesibility"]!)
+                                            Text(idea34["website"]!)
                                         }
                                     }
                                     Text(idea34["description"]!)
@@ -1126,6 +1190,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea33["location"]!)
+                                            Text(idea33["category"]!)
+                                            Text(idea33["indoor_outdoor"]!)
+                                            Text(idea33["accesibility"]!)
+                                            Text(idea33["website"]!)
                                         }
                                     }
                                     Text(idea33["description"]!)
@@ -1157,6 +1225,10 @@ var idea53: [String: String] = [
                                         }
                                     }
                                     Text(idea32["description"]!)
+                                    Text(idea32["category"]!)
+                                    Text(idea32["indoor_outdoor"]!)
+                                    Text(idea32["accesibility"]!)
+                                    Text(idea32["website"]!)
                                     Text("")
                                     Text("")
                                 }
@@ -1182,6 +1254,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea31["location"]!)
+                                            Text(idea31["category"]!)
+                                            Text(idea31["indoor_outdoor"]!)
+                                            Text(idea31["accesibility"]!)
+                                            Text(idea31["website"]!)
                                         }
                                     }
                                     Text(idea31["description"]!)
@@ -1210,6 +1286,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea30["location"]!)
+                                            Text(idea30["category"]!)
+                                            Text(idea30["indoor_outdoor"]!)
+                                            Text(idea30["accesibility"]!)
+                                            Text(idea30["website"]!)
                                         }
                                     }
                                     Text(idea30["description"]!)
@@ -1238,6 +1318,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea29["location"]!)
+                                            Text(idea29["category"]!)
+                                            Text(idea29["indoor_outdoor"]!)
+                                            Text(idea29["accesibility"]!)
+                                            Text(idea29["website"]!)
                                         }
                                     }
                                     Text(idea29["description"]!)
@@ -1266,6 +1350,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea28["location"]!)
+                                            Text(idea28["category"]!)
+                                            Text(idea28["indoor_outdoor"]!)
+                                            Text(idea28["accesibility"]!)
+                                            Text(idea28["website"]!)
                                         }
                                     }
                                     Text(idea28["description"]!)
@@ -1294,6 +1382,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea27["location"]!)
+                                            Text(idea27["category"]!)
+                                            Text(idea27["indoor_outdoor"]!)
+                                            Text(idea27["accesibility"]!)
+                                            Text(idea27["website"]!)
                                         }
                                     }
                                     Text(idea27["description"]!)
@@ -1322,6 +1414,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea26["location"]!)
+                                            Text(idea26["category"]!)
+                                            Text(idea26["indoor_outdoor"]!)
+                                            Text(idea26["accesibility"]!)
+                                            Text(idea26["website"]!)
                                         }
                                     }
                                     Text(idea26["description"]!)
@@ -1350,6 +1446,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea25["location"]!)
+                                            Text(idea25["category"]!)
+                                            Text(idea25["indoor_outdoor"]!)
+                                            Text(idea25["accesibility"]!)
+                                            Text(idea25["website"]!)
                                         }
                                     }
                                     Text(idea25["description"]!)
@@ -1378,6 +1478,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea24["location"]!)
+                                            Text(idea24["category"]!)
+                                            Text(idea24["indoor_outdoor"]!)
+                                            Text(idea24["accesibility"]!)
+                                            Text(idea24["website"]!)
                                         }
                                     }
                                     Text(idea24["description"]!)
@@ -1406,6 +1510,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea23["location"]!)
+                                            Text(idea23["category"]!)
+                                            Text(idea23["indoor_outdoor"]!)
+                                            Text(idea23["accesibility"]!)
+                                            Text(idea23["website"]!)
                                         }
                                     }
                                     Text(idea23["description"]!)
@@ -1434,6 +1542,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea22["location"]!)
+                                            Text(idea22["category"]!)
+                                            Text(idea22["indoor_outdoor"]!)
+                                            Text(idea22["accesibility"]!)
+                                            Text(idea22["website"]!)
                                         }
                                     }
                                     Text(idea22["description"]!)
@@ -1462,6 +1574,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea21["location"]!)
+                                            Text(idea21["category"]!)
+                                            Text(idea21["indoor_outdoor"]!)
+                                            Text(idea21["accesibility"]!)
+                                            Text(idea21["website"]!)
                                         }
                                     }
                                     Text(idea21["description"]!)
@@ -1490,6 +1606,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea20["location"]!)
+                                            Text(idea20["category"]!)
+                                            Text(idea20["indoor_outdoor"]!)
+                                            Text(idea20["accesibility"]!)
+                                            Text(idea20["website"]!)
                                         }
                                     }
                                     Text(idea20["description"]!)
@@ -1518,6 +1638,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea19["location"]!)
+                                            Text(idea19["category"]!)
+                                            Text(idea19["indoor_outdoor"]!)
+                                            Text(idea19["accesibility"]!)
+                                            Text(idea19["website"]!)
                                         }
                                     }
                                     Text(idea19["description"]!)
@@ -1546,6 +1670,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea18["location"]!)
+                                            Text(idea18["category"]!)
+                                            Text(idea18["indoor_outdoor"]!)
+                                            Text(idea18["accesibility"]!)
+                                            Text(idea18["website"]!)
                                         }
                                     }
                                     Text(idea18["description"]!)
@@ -1574,6 +1702,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea17["location"]!)
+                                            Text(idea17["category"]!)
+                                            Text(idea17["indoor_outdoor"]!)
+                                            Text(idea17["accesibility"]!)
+                                            Text(idea17["website"]!)
                                         }
                                     }
                                     Text(idea17["description"]!)
@@ -1602,6 +1734,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea16["location"]!)
+                                            Text(idea16["category"]!)
+                                            Text(idea16["indoor_outdoor"]!)
+                                            Text(idea16["accesibility"]!)
+                                            Text(idea16["website"]!)
                                         }
                                     }
                                     Text(idea16["description"]!)
@@ -1630,6 +1766,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea15["location"]!)
+                                            Text(idea15["category"]!)
+                                            Text(idea15["indoor_outdoor"]!)
+                                            Text(idea15["accesibility"]!)
+                                            Text(idea15["website"]!)
                                         }
                                     }
                                     Text(idea15["description"]!)
@@ -1658,6 +1798,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea14["location"]!)
+                                            Text(idea14["category"]!)
+                                            Text(idea14["indoor_outdoor"]!)
+                                            Text(idea14["accesibility"]!)
+                                            Text(idea14["website"]!)
                                         }
                                     }
                                     Text(idea14["description"]!)
@@ -1686,6 +1830,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea13["location"]!)
+                                            Text(idea13["category"]!)
+                                            Text(idea13["indoor_outdoor"]!)
+                                            Text(idea13["accesibility"]!)
+                                            Text(idea13["website"]!)
                                         }
                                     }
                                     Text(idea13["description"]!)
@@ -1714,6 +1862,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea12["location"]!)
+                                            Text(idea12["category"]!)
+                                            Text(idea12["indoor_outdoor"]!)
+                                            Text(idea12["accesibility"]!)
+                                            Text(idea12["website"]!)
                                         }
                                     }
                                     Text(idea12["description"]!)
@@ -1742,6 +1894,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea11["location"]!)
+                                            Text(idea11["category"]!)
+                                            Text(idea11["indoor_outdoor"]!)
+                                            Text(idea11["accesibility"]!)
+                                            Text(idea11["website"]!)
                                         }
                                     }
                                     Text(idea11["description"]!)
@@ -1770,6 +1926,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea10["location"]!)
+                                            Text(idea10["category"]!)
+                                            Text(idea10["indoor_outdoor"]!)
+                                            Text(idea10["accesibility"]!)
+                                            Text(idea10["website"]!)
                                         }
                                     }
                                     Text(idea10["description"]!)
@@ -1798,6 +1958,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea9["location"]!)
+                                            Text(idea9["category"]!)
+                                            Text(idea9["indoor_outdoor"]!)
+                                            Text(idea9["accesibility"]!)
+                                            Text(idea9["website"]!)
                                         }
                                     }
                                     Text(idea9["description"]!)
@@ -1826,6 +1990,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea8["location"]!)
+                                            Text(idea8["category"]!)
+                                            Text(idea8["indoor_outdoor"]!)
+                                            Text(idea8["accesibility"]!)
+                                            Text(idea8["website"]!)
                                         }
                                     }
                                     Text(idea8["description"]!)
@@ -1854,6 +2022,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea7["location"]!)
+                                            Text(idea7["category"]!)
+                                            Text(idea7["indoor_outdoor"]!)
+                                            Text(idea7["accesibility"]!)
+                                            Text(idea7["website"]!)
                                         }
                                     }
                                     Text(idea7["description"]!)
@@ -1882,6 +2054,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea6["location"]!)
+                                            Text(idea6["category"]!)
+                                            Text(idea6["indoor_outdoor"]!)
+                                            Text(idea6["accesibility"]!)
+                                            Text(idea6["website"]!)
                                         }
                                     }
                                     Text(idea6["description"]!)
@@ -1910,6 +2086,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea5["location"]!)
+                                            Text(idea5["category"]!)
+                                            Text(idea5["indoor_outdoor"]!)
+                                            Text(idea5["accesibility"]!)
+                                            Text(idea5["website"]!)
                                         }
                                     }
                                     Text(idea5["description"]!)
@@ -1938,6 +2118,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea4["location"]!)
+                                            Text(idea4["category"]!)
+                                            Text(idea4["indoor_outdoor"]!)
+                                            Text(idea4["accesibility"]!)
+                                            Text(idea4["website"]!)
                                         }
                                     }
                                     Text(idea4["description"]!)
@@ -1966,6 +2150,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea3["location"]!)
+                                            Text(idea3["category"]!)
+                                            Text(idea3["indoor_outdoor"]!)
+                                            Text(idea3["accesibility"]!)
+                                            Text(idea3["website"]!)
                                         }
                                     }
                                     Text(idea3["description"]!)
@@ -1994,6 +2182,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea2["location"]!)
+                                            Text(idea2["category"]!)
+                                            Text(idea2["indoor_outdoor"]!)
+                                            Text(idea2["accesibility"]!)
+                                            Text(idea2["website"]!)
                                         }
                                     }
                                     Text(idea2["description"]!)
@@ -2022,6 +2214,10 @@ var idea53: [String: String] = [
                                                 .fontWeight(.bold)
                                                 .foregroundColor(Color.pink)
                                             Text(idea1["location"]!)
+                                            Text(idea1["category"]!)
+                                            Text(idea1["indoor_outdoor"]!)
+                                            Text(idea1["accesibility"]!)
+                                            Text(idea1["website"]!)
                                         }
                                     }
                                     Text(idea1["description"]!)
@@ -2048,6 +2244,10 @@ var idea53: [String: String] = [
                                             Text(idea51["title"]!)
                                                 .foregroundColor(Color.pink)
                                             Text(idea51["location"]!)
+                                            Text(idea51["category"]!)
+                                            Text(idea51["indoor_outdoor"]!)
+                                            Text(idea51["accesibility"]!)
+                                            Text(idea51["website"]!)
                                         }
                                     }
                                     Text("-------------------------------------")
@@ -2073,6 +2273,10 @@ var idea53: [String: String] = [
                                         Text(idea52["title"]!)
                                           .foregroundColor(Color.pink)
                                         Text(idea52["location"]!)
+                                          Text(idea52["category"]!)
+                                          Text(idea52["indoor_outdoor"]!)
+                                          Text(idea52["accesibility"]!)
+                                          Text(idea52["website"]!)
                                       }
                                     }
                                     Text("-------------------------------------")

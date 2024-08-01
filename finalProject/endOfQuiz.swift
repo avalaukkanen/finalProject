@@ -4,9 +4,8 @@
 //
 //  Created by Scholar on 30/07/2024.
 //
-
 import SwiftUI
-
+/*
 struct endOfQuiz: View {
     @State private var isActive: Bool = false
     @State private var isLoading = false
