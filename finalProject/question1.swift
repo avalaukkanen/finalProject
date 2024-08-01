@@ -23,6 +23,7 @@ struct question1: View {
                         .foregroundColor(Color.white)
                         .padding(.bottom)
                         .shadow(radius: 5)
+                    
                     VStack(spacing:40){
                         NavigationLink(destination:question2()) {
                             Text("Day Out")
