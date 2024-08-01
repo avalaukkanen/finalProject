@@ -17,7 +17,7 @@ struct BucketListView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Bucket List")
+                //Text("Bucket List")
             }
             .toolbar {
                 ToolbarItemGroup(placement: .status) {
@@ -97,12 +97,12 @@ struct BucketListView: View {
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 27.0, height: 27.0)
                       }
-                      Text("emirates air line cable car:mountain_cableway:")
+                      Text("emirates air line cable car 🚡")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
                       Spacer()
-                      Text(":star2:")
+                      Text("⭐️")
                     }
                     HStack{
                       Button {
@@ -112,7 +112,7 @@ struct BucketListView: View {
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 27.0, height: 27.0)
                       }
-                      Text("visit little venice:canoe:")
+                      Text("visit little venice 🛶")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
@@ -126,7 +126,7 @@ struct BucketListView: View {
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 27.0, height: 27.0)
                       }
-                      Text("sherlock holmes museum:mag_right:")
+                      Text("sherlock holmes museum 🕵️‍♂️")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
@@ -140,7 +140,7 @@ struct BucketListView: View {
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 27.0, height: 27.0)
                       }
-                      Text("lucky voice karaoke (soho):notes:")
+                      Text("lucky voice karaoke (soho)🎶")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
@@ -154,12 +154,12 @@ struct BucketListView: View {
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 27.0, height: 27.0)
                       }
-                      Text("eating out in chinatown:ramen:")
+                      Text("eating out in chinatown w bf🍜")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
                       Spacer()
-                      Text(":star2:")
+                      Text("⭐️")
                     }
                     HStack{
                       Button {
@@ -169,7 +169,7 @@ struct BucketListView: View {
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 27.0, height: 27.0)
                       }
-                      Text("experience f1 arcade:racing_car:")
+                      Text("experience f1 arcade w samar 🏎️")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
@@ -183,7 +183,7 @@ struct BucketListView: View {
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 27.0, height: 27.0)
                       }
-                      Text("outdoor movie night to watch barbie in canary wharf:movie_camera:")
+                      Text("outdoor movie night to watch barbie in canary wharf🎬")
                         .font(.title2)
                         .fontWeight(.medium)
                         .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
@@ -215,7 +215,7 @@ struct BucketListView: View {
                              .fontWeight(.medium)
                              .foregroundColor(Color(hue: 0.93, saturation: 1.0, brightness: 0.698))
                            Spacer()
-                           Text(":star2:")
+                           Text("⭐️")
                           }
                           Text (toDoItem.note)
                           //Text("\(toDoItem.timestamp, format:Data.FormatStyle(data:.numeric, time: .shortened))"))
