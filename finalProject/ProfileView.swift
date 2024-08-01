@@ -12,6 +12,7 @@ struct ProfileView: View {
         NavigationStack {
             VStack {
                 Text("Profile")
+                    .font(.custom("LeagueSpartan-Regular", size:20))
             }
             .toolbar {
                 ToolbarItemGroup(placement: .status) {

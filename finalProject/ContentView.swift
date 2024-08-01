@@ -2103,6 +2103,15 @@ var idea53: [String: String] = [
                                             Text(idea53["description"]!)
                                             Text("")
                                             Text("")
+                                                .onAppear {
+                                                    for family in UIFont.familyNames.sorted() {
+                                                        print("Family: \(family)")
+                                                        let names = UIFont.fontNames(forFamilyName: family)
+                                                        for fontName in names {
+                                                            print("- \(fontName)")
+                                                        }
+                                                    }
+                                                }
                                         }
                                     }
 

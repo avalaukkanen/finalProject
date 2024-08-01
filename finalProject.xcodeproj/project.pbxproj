@@ -14,6 +14,33 @@
 		BD1401C02C53D347003E1A77 /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1401BF2C53D347003E1A77 /* finalProjectTests.swift */; };
 		BD1401CA2C53D347003E1A77 /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1401C92C53D347003E1A77 /* finalProjectUITests.swift */; };
 		BD1401CC2C53D347003E1A77 /* finalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1401CB2C53D347003E1A77 /* finalProjectUITestsLaunchTests.swift */; };
+		BD3FBB3D2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3FBB3C2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf */; };
+		BD3FBB3E2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3FBB3C2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf */; };
+		BD3FBB3F2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3FBB3C2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf */; };
+		BD3FBB412C5B93AC00E2EC68 /* openPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB402C5B93AC00E2EC68 /* openPage.swift */; };
+		BD3FBB422C5B93AC00E2EC68 /* openPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB402C5B93AC00E2EC68 /* openPage.swift */; };
+		BD3FBB432C5B93AC00E2EC68 /* openPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB402C5B93AC00E2EC68 /* openPage.swift */; };
+		BD3FBB452C5B93BA00E2EC68 /* quizStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB442C5B93BA00E2EC68 /* quizStart.swift */; };
+		BD3FBB462C5B93BA00E2EC68 /* quizStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB442C5B93BA00E2EC68 /* quizStart.swift */; };
+		BD3FBB472C5B93BA00E2EC68 /* quizStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB442C5B93BA00E2EC68 /* quizStart.swift */; };
+		BD3FBB492C5B93C700E2EC68 /* question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB482C5B93C600E2EC68 /* question1.swift */; };
+		BD3FBB4A2C5B93C700E2EC68 /* question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB482C5B93C600E2EC68 /* question1.swift */; };
+		BD3FBB4B2C5B93C700E2EC68 /* question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB482C5B93C600E2EC68 /* question1.swift */; };
+		BD3FBB4D2C5B93D200E2EC68 /* question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB4C2C5B93D200E2EC68 /* question2.swift */; };
+		BD3FBB4E2C5B93D200E2EC68 /* question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB4C2C5B93D200E2EC68 /* question2.swift */; };
+		BD3FBB4F2C5B93D200E2EC68 /* question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB4C2C5B93D200E2EC68 /* question2.swift */; };
+		BD3FBB512C5B93DE00E2EC68 /* question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB502C5B93DE00E2EC68 /* question3.swift */; };
+		BD3FBB522C5B93DE00E2EC68 /* question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB502C5B93DE00E2EC68 /* question3.swift */; };
+		BD3FBB532C5B93DE00E2EC68 /* question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB502C5B93DE00E2EC68 /* question3.swift */; };
+		BD3FBB552C5B93E800E2EC68 /* question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB542C5B93E800E2EC68 /* question4.swift */; };
+		BD3FBB562C5B93E800E2EC68 /* question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB542C5B93E800E2EC68 /* question4.swift */; };
+		BD3FBB572C5B93E800E2EC68 /* question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB542C5B93E800E2EC68 /* question4.swift */; };
+		BD3FBB592C5B93F500E2EC68 /* question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB582C5B93F500E2EC68 /* question5.swift */; };
+		BD3FBB5A2C5B93F500E2EC68 /* question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB582C5B93F500E2EC68 /* question5.swift */; };
+		BD3FBB5B2C5B93F500E2EC68 /* question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB582C5B93F500E2EC68 /* question5.swift */; };
+		BD3FBB5D2C5B940700E2EC68 /* endOfQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */; };
+		BD3FBB5E2C5B940700E2EC68 /* endOfQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */; };
+		BD3FBB5F2C5B940700E2EC68 /* endOfQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */; };
 		BD4931182C5A6825001E0957 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4931172C5A6825001E0957 /* ProfileView.swift */; };
 		BD49311A2C5A684A001E0957 /* BucketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4931192C5A684A001E0957 /* BucketListView.swift */; };
 		BD49311C2C5A6863001E0957 /* FollowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49311B2C5A6863001E0957 /* FollowingView.swift */; };
@@ -47,6 +74,16 @@
 		BD1401C52C53D347003E1A77 /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1401C92C53D347003E1A77 /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		BD1401CB2C53D347003E1A77 /* finalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD3FBB3B2C5B91DD00E2EC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD3FBB3C2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		BD3FBB402C5B93AC00E2EC68 /* openPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openPage.swift; sourceTree = "<group>"; };
+		BD3FBB442C5B93BA00E2EC68 /* quizStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizStart.swift; sourceTree = "<group>"; };
+		BD3FBB482C5B93C600E2EC68 /* question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question1.swift; sourceTree = "<group>"; };
+		BD3FBB4C2C5B93D200E2EC68 /* question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question2.swift; sourceTree = "<group>"; };
+		BD3FBB502C5B93DE00E2EC68 /* question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question3.swift; sourceTree = "<group>"; };
+		BD3FBB542C5B93E800E2EC68 /* question4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question4.swift; sourceTree = "<group>"; };
+		BD3FBB582C5B93F500E2EC68 /* question5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question5.swift; sourceTree = "<group>"; };
+		BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endOfQuiz.swift; sourceTree = "<group>"; };
 		BD4931172C5A6825001E0957 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BD4931192C5A684A001E0957 /* BucketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListView.swift; sourceTree = "<group>"; };
 		BD49311B2C5A6863001E0957 /* FollowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingView.swift; sourceTree = "<group>"; };
@@ -100,7 +137,17 @@
 		BD1401AD2C53D345003E1A77 /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
+				BD3FBB3B2C5B91DD00E2EC68 /* Info.plist */,
 				BD1401AE2C53D345003E1A77 /* finalProjectApp.swift */,
+				BD3FBB3C2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf */,
+				BD3FBB402C5B93AC00E2EC68 /* openPage.swift */,
+				BD3FBB442C5B93BA00E2EC68 /* quizStart.swift */,
+				BD3FBB482C5B93C600E2EC68 /* question1.swift */,
+				BD3FBB4C2C5B93D200E2EC68 /* question2.swift */,
+				BD3FBB502C5B93DE00E2EC68 /* question3.swift */,
+				BD3FBB542C5B93E800E2EC68 /* question4.swift */,
+				BD3FBB582C5B93F500E2EC68 /* question5.swift */,
+				BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */,
 				BD1401B02C53D345003E1A77 /* ContentView.swift */,
 				BD4931172C5A6825001E0957 /* ProfileView.swift */,
 				BD4931192C5A684A001E0957 /* BucketListView.swift */,
@@ -241,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1401B62C53D347003E1A77 /* Preview Assets.xcassets in Resources */,
+				BD3FBB3D2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf in Resources */,
 				BD1401B32C53D347003E1A77 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3FBB3E2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3FBB3F2C5B92CC00E2EC68 /* LeagueSpartan-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +317,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD49311A2C5A684A001E0957 /* BucketListView.swift in Sources */,
+				BD3FBB452C5B93BA00E2EC68 /* quizStart.swift in Sources */,
 				BD1401B12C53D345003E1A77 /* ContentView.swift in Sources */,
+				BD3FBB492C5B93C700E2EC68 /* question1.swift in Sources */,
 				BD49311C2C5A6863001E0957 /* FollowingView.swift in Sources */,
+				BD3FBB512C5B93DE00E2EC68 /* question3.swift in Sources */,
 				BD4931182C5A6825001E0957 /* ProfileView.swift in Sources */,
+				BD3FBB412C5B93AC00E2EC68 /* openPage.swift in Sources */,
+				BD3FBB4D2C5B93D200E2EC68 /* question2.swift in Sources */,
+				BD3FBB552C5B93E800E2EC68 /* question4.swift in Sources */,
 				BD1401AF2C53D345003E1A77 /* finalProjectApp.swift in Sources */,
+				BD3FBB5D2C5B940700E2EC68 /* endOfQuiz.swift in Sources */,
+				BD3FBB592C5B93F500E2EC68 /* question5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3FBB5E2C5B940700E2EC68 /* endOfQuiz.swift in Sources */,
+				BD3FBB4E2C5B93D200E2EC68 /* question2.swift in Sources */,
+				BD3FBB422C5B93AC00E2EC68 /* openPage.swift in Sources */,
 				BD1401C02C53D347003E1A77 /* finalProjectTests.swift in Sources */,
+				BD3FBB522C5B93DE00E2EC68 /* question3.swift in Sources */,
+				BD3FBB462C5B93BA00E2EC68 /* quizStart.swift in Sources */,
+				BD3FBB562C5B93E800E2EC68 /* question4.swift in Sources */,
+				BD3FBB4A2C5B93C700E2EC68 /* question1.swift in Sources */,
+				BD3FBB5A2C5B93F500E2EC68 /* question5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +353,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1401CA2C53D347003E1A77 /* finalProjectUITests.swift in Sources */,
+				BD3FBB472C5B93BA00E2EC68 /* quizStart.swift in Sources */,
+				BD3FBB5B2C5B93F500E2EC68 /* question5.swift in Sources */,
+				BD3FBB432C5B93AC00E2EC68 /* openPage.swift in Sources */,
+				BD3FBB532C5B93DE00E2EC68 /* question3.swift in Sources */,
+				BD3FBB5F2C5B940700E2EC68 /* endOfQuiz.swift in Sources */,
 				BD1401CC2C53D347003E1A77 /* finalProjectUITestsLaunchTests.swift in Sources */,
+				BD3FBB4F2C5B93D200E2EC68 /* question2.swift in Sources */,
+				BD3FBB572C5B93E800E2EC68 /* question4.swift in Sources */,
+				BD3FBB4B2C5B93C700E2EC68 /* question1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +510,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"finalProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = finalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +539,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"finalProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = finalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
