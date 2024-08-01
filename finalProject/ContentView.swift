@@ -654,7 +654,7 @@ var idea53: [String: String] = [
                             //RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
                             //.padding(.bottom)
                             //.foregroundColor(.white)
-                            Text("       Things To Do       ")
+                            Text("        been there?       ")
                                 .font(.title)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.pink)
