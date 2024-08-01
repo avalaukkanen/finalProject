@@ -86,8 +86,8 @@ struct ProfileView: View {
                 }
 
             VStack {
-                Text("Profile")
-                    .font(.custom("LeagueSpartan-Regular", size:20))
+             //   Text("Profile")
+                  //  .font(.custom("LeagueSpartan-Regular", size:20))
             }
             .toolbar {
                 ToolbarItemGroup(placement: .status) {
@@ -95,7 +95,7 @@ struct ProfileView: View {
                         Image("house")
                             .padding(25)
                         .navigationBarBackButtonHidden(true)
-                    NavigationLink(destination: FollowingView()) {
+                    NavigationLink(destination: Travel()) {
                         Image("people")
                             .padding(25)
                         .navigationBarBackButtonHidden(true)
