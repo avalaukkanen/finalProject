@@ -26,7 +26,7 @@ struct ContentView: View {
                             Image("house")
                                 .padding(25)
                                 .navigationBarBackButtonHidden(true)
-                            NavigationLink(destination: FollowingView()) {
+                            NavigationLink(destination: Travel()) {
                                 Image("people")
                                     .padding(25)
                                     .navigationBarBackButtonHidden(true)
