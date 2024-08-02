@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 
 struct Review: Identifiable, Codable {
-    let id = UUID()
+    var id = UUID()
     var title: String
     var content: String
     var imageData: Data? // Store image data

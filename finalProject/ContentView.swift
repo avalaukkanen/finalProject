@@ -640,9 +640,8 @@ var idea53: [String: String] = [
   //  var body: some View {
         
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color.pinko
-                                                       , Color.orange]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
-            .ignoresSafeArea()
+            RadialGradient(gradient: Gradient(colors: [Color("ourPink"), Color("ourOrange"),Color("ourPurple")]), center:/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 10, endRadius: 500)
+                .ignoresSafeArea()
             ScrollView(.vertical, showsIndicators: false){
                 VStack {
                     Image("Image")
@@ -654,11 +653,11 @@ var idea53: [String: String] = [
                             //RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
                             //.padding(.bottom)
                             //.foregroundColor(.white)
-                            Text("        been there?       ")
+                            /*Text("        been there?       ")
                                 .font(.title)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.pink)
-                                .background(Color(.systemGroupedBackground)).cornerRadius(60)
+                                .background(Color(.systemGroupedBackground)).cornerRadius(60)*/
                             Divider()
                             ZStack {
                                 ZStack {

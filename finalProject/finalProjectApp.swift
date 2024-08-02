@@ -11,6 +11,10 @@ struct finalProjectApp: App {
     var body: some Scene {
         WindowGroup {
             openPage()
+          //  BucketListView()
+           //     .modelContainer(for: ToDoItem.self)
+                //.environment(\.modelContainer, modelContainer)
+
         }
     }
 }

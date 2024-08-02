@@ -11,7 +11,10 @@ struct FollowingView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                RadialGradient(gradient: Gradient(colors: [Color("ourPink"), Color("ourOrange"),Color("ourPurple")]), center:/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 10, endRadius: 500)
+                    .ignoresSafeArea()
                 Text("Following")
+                
             }
             .toolbar {
                 ToolbarItemGroup(placement: .status) {

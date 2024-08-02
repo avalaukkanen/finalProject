@@ -7,14 +7,23 @@
 
 import SwiftUI
 import SwiftData
+
 struct BucketListView: View {
+
     @State private var showNewTask = false
+    
     @State private var tick1 = "checkmark"
     @State private var tick2 = "pinkCheckmark"
+    
     @State private var count = 0
+    
     @Query var toDos: [ToDoItem]
+    
     @Environment(\.modelContext) var modelContext
+    
     var body: some View {
+        
+
         NavigationStack {
             VStack {
                 //Text("Bucket List")
@@ -252,6 +261,8 @@ struct BucketListView: View {
         }
         #Preview {
           BucketListView()
+                .modelContainer(for: ToDoItem.self)
+
         }
     
 

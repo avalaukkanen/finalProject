@@ -6,12 +6,14 @@
 //
 import Foundation
 import SwiftData
+
 @Model
-class ToDoItem {
+class ToDoItem: ObservableObject, Identifiable {
   var title: String
   var note: String
   //var timestamp: Date
   var isImportant: Bool
+    
   init(title: String, note: String, isImportant: Bool = false) {
     self.title = title
     self.note = note
@@ -19,10 +21,4 @@ class ToDoItem {
     self.isImportant = isImportant
   }
 }
-
-
-
-
-
-
 

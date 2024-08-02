@@ -21,11 +21,11 @@ struct Travel: View {
     var body: some View {
         NavigationView {
             ZStack {
-                EllipticalGradient(colors:[Color.pink, Color.orange], center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadiusFraction: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, endRadiusFraction: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/)
+                RadialGradient(gradient: Gradient(colors: [Color("ourPink"), Color("ourOrange"),Color("ourPurple")]), center:/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 10, endRadius: 500)
                     .ignoresSafeArea()
                 VStack {
                     Text("- travel reviews -")
-                        .font(.largeTitle)
+                        .font(.custom("LeagueSpartan-Bold", size : 30))
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                     Text("‧₊˚❀༉‧₊˚.")

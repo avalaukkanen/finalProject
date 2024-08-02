@@ -21,7 +21,7 @@ struct endOfQuiz: View {
                 ContentView()
                     .transition(.opacity) // This adds a fade-in effect
             } else {
-                VStack{
+                VStack(spacing:40){
                     VStack(spacing:30){
                         Spacer()
                         Text("Thank you for completing the quiz!")

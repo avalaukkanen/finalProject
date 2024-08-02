@@ -42,7 +42,6 @@
 		BD3FBB5E2C5B940700E2EC68 /* endOfQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */; };
 		BD3FBB5F2C5B940700E2EC68 /* endOfQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */; };
 		BD3FBB612C5BCCBE00E2EC68 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB602C5BCCBE00E2EC68 /* NewToDoView.swift */; };
-		BD3FBB632C5BCCD100E2EC68 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FBB622C5BCCD100E2EC68 /* ToDoItem.swift */; };
 		BD4931182C5A6825001E0957 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4931172C5A6825001E0957 /* ProfileView.swift */; };
 		BD49311A2C5A684A001E0957 /* BucketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4931192C5A684A001E0957 /* BucketListView.swift */; };
 		BD49311C2C5A6863001E0957 /* FollowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49311B2C5A6863001E0957 /* FollowingView.swift */; };
@@ -51,6 +50,7 @@
 		BD5EB9FD2C5BC3DE00F1C469 /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EB9FC2C5BC3DE00F1C469 /* ReviewViewModel.swift */; };
 		BD5EBA012C5BC52900F1C469 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EBA002C5BC52900F1C469 /* ImagePicker.swift */; };
 		BD5EBA032C5BC5AA00F1C469 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EBA022C5BC5AA00F1C469 /* Review.swift */; };
+		BD7572752C5CDB1C00C59F00 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7572742C5CDB1C00C59F00 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +92,6 @@
 		BD3FBB582C5B93F500E2EC68 /* question5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question5.swift; sourceTree = "<group>"; };
 		BD3FBB5C2C5B940700E2EC68 /* endOfQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endOfQuiz.swift; sourceTree = "<group>"; };
 		BD3FBB602C5BCCBE00E2EC68 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
-		BD3FBB622C5BCCD100E2EC68 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		BD4931172C5A6825001E0957 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BD4931192C5A684A001E0957 /* BucketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListView.swift; sourceTree = "<group>"; };
 		BD49311B2C5A6863001E0957 /* FollowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingView.swift; sourceTree = "<group>"; };
@@ -101,6 +100,7 @@
 		BD5EB9FC2C5BC3DE00F1C469 /* ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
 		BD5EBA002C5BC52900F1C469 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = ../../letsGo/ImagePicker.swift; sourceTree = "<group>"; };
 		BD5EBA022C5BC5AA00F1C469 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		BD7572742C5CDB1C00C59F00 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +170,7 @@
 				BD5EBA022C5BC5AA00F1C469 /* Review.swift */,
 				BD4931192C5A684A001E0957 /* BucketListView.swift */,
 				BD3FBB602C5BCCBE00E2EC68 /* NewToDoView.swift */,
-				BD3FBB622C5BCCD100E2EC68 /* ToDoItem.swift */,
+				BD7572742C5CDB1C00C59F00 /* ToDoItem.swift */,
 				BD4931172C5A6825001E0957 /* ProfileView.swift */,
 				BD49311B2C5A6863001E0957 /* FollowingView.swift */,
 				BD1401B22C53D347003E1A77 /* Assets.xcassets */,
@@ -339,7 +339,6 @@
 			files = (
 				BD49311A2C5A684A001E0957 /* BucketListView.swift in Sources */,
 				BD3FBB452C5B93BA00E2EC68 /* quizStart.swift in Sources */,
-				BD3FBB632C5BCCD100E2EC68 /* ToDoItem.swift in Sources */,
 				BD1401B12C53D345003E1A77 /* ContentView.swift in Sources */,
 				BD5EBA012C5BC52900F1C469 /* ImagePicker.swift in Sources */,
 				BD3FBB612C5BCCBE00E2EC68 /* NewToDoView.swift in Sources */,
@@ -351,6 +350,7 @@
 				BD3FBB412C5B93AC00E2EC68 /* openPage.swift in Sources */,
 				BD3FBB4D2C5B93D200E2EC68 /* question2.swift in Sources */,
 				BD3FBB552C5B93E800E2EC68 /* question4.swift in Sources */,
+				BD7572752C5CDB1C00C59F00 /* ToDoItem.swift in Sources */,
 				BD5EB9FB2C5BC39700F1C469 /* AddReviewView.swift in Sources */,
 				BD5EBA032C5BC5AA00F1C469 /* Review.swift in Sources */,
 				BD1401AF2C53D345003E1A77 /* finalProjectApp.swift in Sources */,
